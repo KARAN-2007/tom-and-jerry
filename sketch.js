@@ -5,7 +5,7 @@ function preload() {
     //load the images here
     bg=loadImage("garden.png");
     t1=loadAnimation("tomOne.png");
-    t2=loadAnimation("tomTwo.png","images/tomThree.png");
+    t2=loadAnimation("tomTwo.png","tomThree.png");
     t3=loadAnimation("tomFour.png");
     j1=loadAnimation("jerryThree.png");
     j2=loadAnimation("jerryFour.png");
