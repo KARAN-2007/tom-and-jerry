@@ -3,12 +3,12 @@ var jerry,j1,j2;
 var bg,backG;
 function preload() {
     //load the images here
-    bg=loadImage("images/garden.png");
-    t1=loadAnimation("images/tomOne.png");
-    t2=loadAnimation("images/tomTwo.png","images/tomThree.png");
-    t3=loadAnimation("images/tomFour.png");
-    j1=loadAnimation("images/jerryThree.png");
-    j2=loadAnimation("images/jerryFour.png");
+    bg=loadImage("garden.png");
+    t1=loadAnimation("tomOne.png");
+    t2=loadAnimation("tomTwo.png","images/tomThree.png");
+    t3=loadAnimation("tomFour.png");
+    j1=loadAnimation("jerryThree.png");
+    j2=loadAnimation("jerryFour.png");
 }
 
 function setup(){
